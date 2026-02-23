@@ -5,6 +5,38 @@
     text-decoration: none;
 }
 
+
+
+.header {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px 110px;
+}
+
+.nav {
+  display: flex;
+  gap: 60px;
+}
+
+.nav a {
+  font-size: 24px;
+  color: #f8fafc;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.nav a:hover {
+  color: aqua;
+  transform: translateY(5px);
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #0f172a;
