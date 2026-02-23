@@ -35,3 +35,64 @@
   color: aqua;
   transform: translateY(5px);
 }
+
+
+
+.project-card {
+  background-color: #1e293b66;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  padding: 34px 8px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.project-card-photo {
+  width: 250px;
+  height: 231px;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 83px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 94px 145px;
+}
+
+.projects span {
+  color: #16b8f3;
+}
+
+.title h1 {
+  color: #f8fafc;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.project-card-text {
+  flex-direction: column;
+  display: flex;
+  gap: 25px;
+}
+
+.project-card-text h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+
+.project-card-text p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #cbd5e1;
+}
