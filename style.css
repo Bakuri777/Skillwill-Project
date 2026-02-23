@@ -4,3 +4,8 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #0f172a;
+}
