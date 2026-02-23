@@ -1,11 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-
-
 
 .header {
   max-width: 1440px;
@@ -36,9 +34,6 @@
   color: aqua;
   transform: translateY(5px);
 }
-
-
-
 
 .project-card {
   background-color: #1e293b66;
@@ -184,4 +179,39 @@ body {
   flex-direction: column;
   color: #f8fafc;
   align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 57px 108px;
+  flex-direction: column;
+}
+
+.footer p {
+  display: flex;
+  flex-direction: column;
+  color: #cbd5e1;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 677px;
+  margin-right: 30px;
+}
+
+.horizontal-line {
+  width: 1440px;
+  height: 2px;
+  margin: 20px auto;
+
+  background-color: #cbd5e1;
 }
