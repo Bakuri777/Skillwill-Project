@@ -6,6 +6,7 @@
 }
 
 
+
 .header {
   max-width: 1440px;
   width: 100%;
@@ -35,6 +36,7 @@
   color: aqua;
   transform: translateY(5px);
 }
+
 
 
 
@@ -96,3 +98,9 @@
   font-weight: 400;
   color: #cbd5e1;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #0f172a;
+}
+
